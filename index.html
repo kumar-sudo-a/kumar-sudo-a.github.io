@@ -87,7 +87,8 @@
 
 					<h4>TOP EXPERTISE</h4>
 
-					<p>Fullstack developer with primary focus on Responsive Front End User Interface + Back End: <a target="_blank" href="files/resume.docx">Download Resume</a></p>
+					<p>Fullstack developer with primary focus on Responsive Front End User Interface + Back End using Javascript and Java. Check out my GitHub profile under find me section to learn about my expertise in detail. 
+                        <!-- Back End:<a target="_blank" href="files/resume.docx">Download Resume</a></p> -->
 
 					<div id="skills">
 						<ul>
@@ -114,9 +115,9 @@
 					<img id="social_img" src="images/github.png">
 					<h3>Find me on LinkedIn & Github</h3>
 
-					<a target="_blank" href="https://www.linkedin.com/in/kumaras-java/">LinkedIn: @Kumar A</a>
+					<h6><a target="_blank" href="https://www.linkedin.com/in/kumaras-java/">LinkedIn: @Kumar A</a></h6>
 					<br>
-					<a target="_blank" href="https://github.com/kumar-sudo-a">Github: @kumar-sudo-a</a>
+					<h6><a target="_blank" href="https://github.com/kumar-sudo-a">Github: @kumar-sudo-a</a></h6>
 				</div>
 
 			</div>
@@ -178,21 +179,23 @@
         <div class="main-container">
             <h3 style="text-align: center;">Get in Touch</h3>
 
-            <form id="contact-form">
+            <form id="contact-form" onsubmit="sendEmail(); reset(); return false;" >
                 <label>Name</label>
-				<input class="input-field" type="text" name="name">
+				<input class="input-field" type="text" name="name" placeholder="Your Name" required>
 
 				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
+				<input class="input-field" type="text" name="subject" placeholder="Subject" required>
 
 				<label>Email</label>
-				<input class="input-field" type="text" name="email">
+				<input class="input-field" type="text" name="email"id="email" placeholder="Email" required>
+
+                <label>Phone</label>
+				<input class="input-field" type="text" name="Phone" placeholder="Phone number" required>
 
 				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
+				<textarea class="input-field" rows="5" name="message" placeholder="How can I help you"></textarea>
 
-
-                <input id="submit-btn" type="submit" value="Send">
+                <button id="submit-btn" type="submit">Send</button>
             </form>
         </div>
     </section>

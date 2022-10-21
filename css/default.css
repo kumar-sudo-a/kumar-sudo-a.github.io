@@ -42,6 +42,7 @@ li,
 span,
 label,
 input,
+button,
 textarea {
   color: var(--mainText);
   font-family: "Roboto Mono", monospace;
@@ -391,6 +392,8 @@ h6 {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 /* Responsive */
