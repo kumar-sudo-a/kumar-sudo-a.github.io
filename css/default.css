@@ -48,6 +48,15 @@ textarea {
   font-family: "Roboto Mono", monospace;
 }
 
+.medialinks {
+  font-weight:bolder;
+  font-size: 20px;
+}
+
+.medialinks:hover {
+  color: blueviolet;
+}
+
 a {
   text-decoration: none;
   color: #17a2b8;
