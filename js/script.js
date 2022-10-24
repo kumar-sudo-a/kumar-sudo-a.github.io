@@ -39,23 +39,3 @@ function setTheme(mode) {
 
   localStorage.setItem("theme", mode);
 }
-
-/* const mybackToTopBtn = document.getElementById("backToTopBtn");
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement > 100) {
-    mybackToTopBtn.style.display = "block";
-  } else {
-    mybackToTopBtn.style.display = "none";
-  }
-}
-
-mybackToTopBtn.addEventListener('click', () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
- */
