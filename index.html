@@ -303,5 +303,13 @@
     </a>
 
     <script type="text/javascript" src="js/script.js"></script>
+    
+    <!-- Below two lines - Smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000}, {easing: 'linear'});
+    </script>
+    <!-- {speedAsDuration: true} -->
+
   </body>
 </html>
