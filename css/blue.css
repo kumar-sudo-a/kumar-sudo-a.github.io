@@ -15,10 +15,6 @@
   --buttonColor: #17a2b8;
 }
 
-::-webkit-scrollbar {
-  width: 0.9em;
-}
-
 ::-webkit-scrollbar-track {
   /* background: hsl(120 75% 50% / 1); */
   background: #15202b;
