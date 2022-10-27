@@ -28,288 +28,459 @@
   </head>
 
   <body>
-    <section class="s1">
-      <div class="main-container">
-        <div class="greeting-wrapper">
-          <h1>Hi, I'm SHARATH KUMAR</h1>
-        </div>
-
-        <div class="intro-wrapper">
-          <div class="nav-wrapper">
-            <div class="dots-wrapper">
-              <div id="dot-1" class="browser-dot"></div>
-              <div id="dot-2" class="browser-dot"></div>
-              <div id="dot-3" class="browser-dot"></div>
-            </div>
-
-            <ul id="navigation">
-              <li><a href="index.html#contact-form">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="left-column">
-            <img id="profile_pic" src="images/Handsome.jpg" />
-            <h5 style="text-align: center; line-height: 0">
-              Personalize Theme
-            </h5>
-
-            <div id="theme-options-wrapper">
-              <div data-mode="light" id="light-mode" class="theme-dot"></div>
-              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-              <div data-mode="green" id="green-mode" class="theme-dot"></div>
-              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-            </div>
-
-            <p id="settings-note">
-              *Theme settings will be saved for<br />your next visit
-            </p>
-          </div>
-
-          <div class="right-column">
-            <div id="preview-shadow">
-              <div id="preview">
-                <div id="corner-tl" class="corner"></div>
-                <div id="corner-tr" class="corner"></div>
-                <h3>What I Do</h3>
-                <p>
-                  I work as Full Stack Web Developer and enjoy spending my time
-                  on it.
-                </p>
-                <div id="corner-br" class="corner"></div>
-                <div id="corner-bl" class="corner"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="s2">
-      <div class="main-container">
-        <div class="about-wrapper">
-          <div class="about-me">
-            <h4 style="margin-top: 0px">More about me</h4>
-
-            <p>
-              I build new projects to keep up with latest emerging concepts and
-              I am very passionate to know what's the idea and purpose behind
-              the software creation.
-            </p>
-
-            <p>
-              Even though I am busy with my work, I still take time to attend
-              courses, read articles, blogs, listen to podcasts related to
-              web-development's history and advancements.
-            </p>
-
-            <hr />
-
-            <h4>Top Expertise</h4>
-
-            <p>
-              Fullstack developer with primary focus on Responsive Front End
-              User Interface + Back End using Javascript and Java. Check out my
-              GitHub profile under find me section to learn about my expertise
-              in detail.
-              <!-- Back End:<a target="_blank" href="files/resume.docx">Download Resume</a></p> -->
-            </p>
-
-            <div id="skills">
-              <ul>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>Angular</li>
-                <li>React</li>
-                <li>SQL</li>
-              </ul>
-
-              <ul>
-                <li>CSS/HTML</li>
-                <li>Bootstrap</li>
-                <li>Google Maps API</li>
-                <li>JS Charts</li>
-                <li>AWS Resources</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="social-links">
-            <img id="social_img" src="images/github.png" />
-            <h3 style ="margin-bottom: 5px">Find me on Github</h3>
-
-            <a
-              target="_blank"
-              class="medialinks"
-              href="https://github.com/kumar-sudo-a"
-              >Github: @<u>kumar-sudo-a</u></a
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="#" class="nav-link">
+            <span style="padding-right: 10px" class="link-text logo-text">Portfolio</span>
+            <svg
+              id="nav-link"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="angle-double-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
             >
+              <g class="fa-group">
+                <!-- <path fill="currentColor" -->
+                <path
+                  fill="currentColor"
+                  d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2.27em"
+              height="2em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1664 1312"
+            >
+              <path
+                fill="currentColor"
+                d="M1408 768v480q0 26-19 45t-45 19H960V928H704v384H320q-26 0-45-19t-19-45V768q0-1 .5-3t.5-3l575-474l575 474q1 2 1 6zm223-69l-62 74q-8 9-21 11h-3q-13 0-21-7L832 200L140 777q-12 8-24 7q-13-2-21-11l-62-74q-8-10-7-23.5T37 654L756 55q32-26 76-26t76 26l244 204V64q0-14 9-23t23-9h192q14 0 23 9t9 23v408l219 182q10 8 11 21.5t-7 23.5z"
+              />
+            </svg>
+            <span class="link-text">Home</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.html#about-me" class="nav-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                fill="currentColor"
+                d="M370.7 96.1C346.1 39.5 289.7 0 224 0S101.9 39.5 77.3 96.1C60.9 97.5 48 111.2 48 128v64c0 16.8 12.9 30.5 29.3 31.9C101.9 280.5 158.3 320 224 320s122.1-39.5 146.7-96.1c16.4-1.4 29.3-15.1 29.3-31.9V128c0-16.8-12.9-30.5-29.3-31.9zM336 144v16c0 53-43 96-96 96H208c-53 0-96-43-96-96V144c0-26.5 21.5-48 48-48H288c26.5 0 48 21.5 48 48zM189.3 162.7l-6-21.2c-.9-3.3-3.9-5.5-7.3-5.5s-6.4 2.2-7.3 5.5l-6 21.2-21.2 6c-3.3 .9-5.5 3.9-5.5 7.3s2.2 6.4 5.5 7.3l21.2 6 6 21.2c.9 3.3 3.9 5.5 7.3 5.5s6.4-2.2 7.3-5.5l6-21.2 21.2-6c3.3-.9 5.5-3.9 5.5-7.3s-2.2-6.4-5.5-7.3l-21.2-6zM112.7 316.5C46.7 342.6 0 407 0 482.3C0 498.7 13.3 512 29.7 512H128V448c0-17.7 14.3-32 32-32H288c17.7 0 32 14.3 32 32v64l98.3 0c16.4 0 29.7-13.3 29.7-29.7c0-75.3-46.7-139.7-112.7-165.8C303.9 338.8 265.5 352 224 352s-79.9-13.2-111.3-35.5zM176 448c-8.8 0-16 7.2-16 16v48h32V464c0-8.8-7.2-16-16-16zm96 32c8.8 0 16-7.2 16-16s-7.2-16-16-16s-16 7.2-16 16s7.2 16 16 16z"
+              />
+            </svg>
+            <span class="link-text">About me</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.html#expertise" class="nav-link">
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 93.84 122.88"
+              style="enable-background: new 0 0 93.84 122.88"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  fill="currentColor"
+                  d="M9.65,104.48l0.24-41.94H5.16v53.36c6.51-1.68,13.03-2.75,19.61-2.79c6.07-0.04,12.14,0.81,18.23,2.87 c-3.78-3.06-8-5.31-12.49-6.78c-5.67-1.85-11.79-2.46-18.07-1.92c-1.42,0.12-2.66-0.94-2.78-2.35 C9.64,104.77,9.64,104.63,9.65,104.48L9.65,104.48L9.65,104.48z M16.95,34.55c-0.6,0.01-1.14-0.22-1.54-0.59 c-0.41-0.39-0.67-0.92-0.69-1.54c-0.02-0.6,0.21-1.17,0.59-1.57c0.39-0.41,0.92-0.67,1.54-0.69l4.8-0.16 c0.6-0.02,1.17,0.21,1.57,0.59c0.41,0.39,0.67,0.92,0.69,1.54v0.03h0.01l-0.01,0.08c-0.01,0.56-0.23,1.08-0.59,1.46 c-0.39,0.41-0.92,0.67-1.54,0.69h-0.03v0.01h-0.05L16.95,34.55L16.95,34.55L16.95,34.55L16.95,34.55L16.95,34.55z M46.51,2.15 C46.53,1.54,46.79,1,47.2,0.61c0.4-0.38,0.95-0.61,1.54-0.6V0c0.05,0,0.1,0.01,0.15,0.01c0.55,0.05,1.05,0.3,1.41,0.67 c0.38,0.4,0.61,0.94,0.6,1.54h0.01c0,0.04,0,0.08-0.01,0.11l-0.12,4.69h0.01c0,0.05-0.01,0.1-0.01,0.15 c-0.04,0.56-0.3,1.05-0.67,1.41c-0.4,0.38-0.95,0.61-1.54,0.6v0c-0.05,0-0.1,0-0.15-0.01c-0.56-0.04-1.05-0.3-1.41-0.67 c-0.38-0.4-0.61-0.95-0.61-1.54h-0.01c0-0.04,0-0.08,0.01-0.11L46.51,2.15L46.51,2.15L46.51,2.15L46.51,2.15L46.51,2.15z M67.27,8.62c0.34-0.51,0.85-0.82,1.39-0.93c0.55-0.11,1.14-0.01,1.65,0.33l0.01,0.01c0.5,0.33,0.82,0.85,0.93,1.4 s0,1.14-0.33,1.65l-2.67,4c-0.34,0.51-0.85,0.83-1.4,0.94c-0.55,0.11-1.14,0.01-1.65-0.33c-0.51-0.34-0.82-0.85-0.93-1.4 c-0.11-0.55-0.01-1.14,0.33-1.65L67.27,8.62L67.27,8.62L67.27,8.62L67.27,8.62L67.27,8.62z M76.73,27.74l0.07-0.01 c0.57-0.03,1.1,0.15,1.52,0.49c0.44,0.35,0.73,0.88,0.8,1.48v0.02c0,0,0,0.06,0,0.07c0.03,0.57-0.15,1.11-0.49,1.52 c-0.35,0.44-0.88,0.73-1.48,0.8l-4.78,0.5c-0.6,0.06-1.18-0.13-1.61-0.48c-0.44-0.35-0.74-0.88-0.8-1.48 c-0.06-0.6,0.13-1.18,0.48-1.61c0.35-0.44,0.88-0.74,1.48-0.8C73.53,28.08,75.13,27.89,76.73,27.74L76.73,27.74L76.73,27.74 L76.73,27.74L76.73,27.74L76.73,27.74z M22.7,10.37C22.26,9.95,22.02,9.4,22,8.84c-0.02-0.56,0.17-1.13,0.58-1.57 c0.42-0.45,0.97-0.68,1.53-0.7c0.56-0.02,1.13,0.17,1.57,0.58l3.52,3.28c0.44,0.41,0.68,0.97,0.7,1.53 c0.02,0.57-0.17,1.13-0.58,1.57c-0.41,0.44-0.97,0.68-1.53,0.7c-0.57,0.02-1.13-0.17-1.57-0.58L22.7,10.37L22.7,10.37L22.7,10.37 L22.7,10.37L22.7,10.37z M33.75,51.35c-0.83-0.95-1.68-1.92-2.5-3.03c-0.85-1.14-1.66-2.43-2.38-3.96h-0.01 c-0.69-1.49-1.24-3.02-1.61-4.59c-0.37-1.56-0.56-3.16-0.54-4.81c0.01-1.64,0.23-3.29,0.66-4.97c0.44-1.68,1.08-3.37,1.96-5.06 l0.08-0.15c1.14-1.94,2.52-3.57,4.06-4.91c1.64-1.43,3.45-2.52,5.35-3.3l0.15-0.05c1.49-0.6,3.03-1,4.58-1.22 c1.64-0.24,3.32-0.27,5-0.12c1.63,0.15,3.24,0.48,4.79,0.98c1.56,0.5,3.05,1.17,4.44,1.99c1.82,1.08,3.48,2.43,4.89,4.02 c1.36,1.54,2.47,3.29,3.27,5.23c0.43,1.04,0.79,2.17,1.06,3.38c0.27,1.19,0.43,2.45,0.47,3.76c0.04,1.36-0.06,2.76-0.33,4.21 c-0.25,1.36-0.66,2.75-1.23,4.17c-0.05,0.13-0.12,0.25-0.2,0.36l-8.14,12.65c-0.29,0.45-0.75,0.73-1.25,0.8L39.25,59.2 c-0.9,0.13-1.73-0.44-1.97-1.29c-0.43-1.26-0.98-2.53-1.6-3.69C35.09,53.12,34.43,52.13,33.75,51.35L33.75,51.35z M34.11,46.2 c0.75,1.01,1.54,1.92,2.32,2.81c0.87,1,1.68,2.21,2.39,3.52c0.5,0.93,0.96,1.92,1.36,2.93L55,53.33l7.64-11.88 c0.46-1.15,0.78-2.27,0.98-3.34c0.22-1.2,0.31-2.35,0.28-3.46v-0.01c-0.03-1.07-0.17-2.1-0.38-3.08c-0.21-0.96-0.52-1.9-0.89-2.81 c-0.64-1.58-1.54-2.99-2.62-4.22c-1.15-1.3-2.52-2.41-4.04-3.31c-1.17-0.69-2.42-1.25-3.71-1.67c-1.31-0.42-2.66-0.7-4.02-0.83 c-1.38-0.13-2.78-0.09-4.17,0.1c-1.29,0.18-2.55,0.51-3.75,0.99l-0.14,0.06c-1.56,0.63-3.03,1.52-4.34,2.67 c-1.24,1.08-2.36,2.41-3.3,4.01l-0.01,0.02c-0.77,1.48-1.32,2.91-1.68,4.31c-0.36,1.39-0.54,2.76-0.55,4.11 c-0.01,1.33,0.15,2.66,0.46,3.97c0.31,1.31,0.77,2.6,1.37,3.89l-0.01,0C32.7,44.14,33.39,45.22,34.11,46.2L34.11,46.2z M51.15,77.03c-1.14,0.67-2.42,1.05-3.7,1.13c-1.3,0.08-2.6-0.17-3.8-0.74c-5.84-2.85-4.25-9.5-5.41-14.64l17.92-2.67l0,0l0,0l0,0 C54.89,66.09,57.47,73.37,51.15,77.03L51.15,77.03z M79.13,60.35c-0.01-0.12-0.03-0.25-0.03-0.39c0-0.13,0.01-0.26,0.03-0.39v-8.49 c-2.56-0.24-4.27-0.26-6.82-0.04c0.57-1.82,1.19-3.49,1.85-5.27c2.95-0.11,5.03,0.05,7.92,0.48c1.28,0.18,2.2,1.29,2.2,2.54l0,0 v8.59h0.01h6.98c1.42,0,2.57,1.16,2.57,2.58v59.3c0,1.42-1.15,2.57-2.57,2.57c-0.29,0-0.57-0.04-0.83-0.14 c-7.18-2.05-14.31-3.42-21.37-3.47c-6.89-0.04-13.77,1.17-20.68,4.21c-0.43,0.28-0.94,0.44-1.47,0.43 c-0.52,0.01-1.03-0.15-1.46-0.43c-6.9-3.05-13.79-4.26-20.68-4.21c-7.06,0.04-14.19,1.41-21.38,3.47 c-0.26,0.09-0.54,0.14-0.83,0.14C1.15,121.85,0,120.7,0,119.27V59.96c0-1.42,1.15-2.58,2.57-2.58h7.34l0.05-8.6 c0.01-1.24,0.88-2.26,2.04-2.5l0,0c2.63-0.55,4.4-0.83,7.33-0.81c0.37,1.06,0.81,2.11,1.29,3.15c0.34,0.73,0.7,1.42,1.07,2.08 c-2.64-0.19-4.16-0.1-6.62,0.25l-0.29,51.02c5.96-0.21,11.8,0.54,17.29,2.34c4.37,1.42,8.51,3.51,12.3,6.26l0,0V85.46l5.15-0.76 v26.38c4.37-2.92,8.83-5.32,13.42-6.95c5.23-1.86,10.61-2.75,16.17-2.31V60.35L79.13,60.35L79.13,60.35z M52.03,115.59 c5.69-1.79,11.37-2.52,17.05-2.49c6.57,0.04,13.11,1.12,19.61,2.79V62.54h-4.41v42.17c0,1.42-1.15,2.57-2.57,2.57 c-0.21,0-0.41-0.02-0.6-0.07c-5.63-0.89-11.1-0.15-16.43,1.75C60.4,110.5,56.18,112.79,52.03,115.59L52.03,115.59L52.03,115.59z"
+                />
+              </g>
+            </svg>
+            <span class="link-text">Expertise</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.html#find-me" class="nav-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              shape-rendering="geometricPrecision"
+              text-rendering="geometricPrecision"
+              image-rendering="optimizeQuality"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              viewBox="0 0 640 640"
+            >
+              <path
+                fill="currentColor"
+                d="M319.988 7.973C143.293 7.973 0 151.242 0 327.96c0 141.392 91.678 261.298 218.826 303.63 16.004 2.964 21.886-6.957 21.886-15.414 0-7.63-.319-32.835-.449-59.552-89.032 19.359-107.8-37.772-107.8-37.772-14.552-36.993-35.529-46.831-35.529-46.831-29.032-19.879 2.209-19.442 2.209-19.442 32.126 2.245 49.04 32.954 49.04 32.954 28.56 48.922 74.883 34.76 93.131 26.598 2.882-20.681 11.15-34.807 20.315-42.803-71.08-8.067-145.797-35.516-145.797-158.14 0-34.926 12.52-63.485 32.965-85.88-3.33-8.078-14.291-40.606 3.083-84.674 0 0 26.87-8.61 88.029 32.8 25.512-7.075 52.878-10.642 80.056-10.76 27.2.118 54.614 3.673 80.162 10.76 61.076-41.386 87.922-32.8 87.922-32.8 17.398 44.08 6.485 76.631 3.154 84.675 20.516 22.394 32.93 50.953 32.93 85.879 0 122.907-74.883 149.93-146.117 157.856 11.481 9.921 21.733 29.398 21.733 59.233 0 42.792-.366 77.28-.366 87.804 0 8.516 5.764 18.473 21.992 15.354 127.076-42.354 218.637-162.274 218.637-303.582 0-176.695-143.269-319.988-320-319.988l-.023.107z"
+              />
+            </svg>
+            <span class="link-text">Find Me</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.html#projects" class="nav-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              shape-rendering="geometricPrecision"
+              text-rendering="geometricPrecision"
+              image-rendering="optimizeQuality"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              viewBox="0 0 512 380.24"
+            >
+              <path
+                fill="currentColor"
+                d="M34.66 0h442.68C496.4 0 512 15.6 512 34.66v310.92c0 19.06-15.6 34.66-34.66 34.66H34.66C15.6 380.24 0 364.64 0 345.58V34.66C0 15.6 15.6 0 34.66 0zm173.92 264.36c5.76 5.04 6.34 13.81 1.3 19.57-5.05 5.76-13.81 6.35-19.57 1.3l-52.73-46.19c-5.76-5.05-6.35-13.81-1.3-19.58.43-.49.89-.94 1.37-1.36l52.66-46.14c5.76-5.04 14.52-4.46 19.57 1.31 5.04 5.76 4.46 14.52-1.3 19.57l-40.82 35.76 40.82 35.76zm113.11 20.87c-5.76 5.05-14.52 4.46-19.57-1.3-5.04-5.76-4.46-14.53 1.3-19.57l40.82-35.76-40.82-35.76c-5.76-5.05-6.34-13.81-1.3-19.57 5.05-5.77 13.81-6.35 19.57-1.31l52.66 46.14c.48.42.94.87 1.37 1.36 5.05 5.77 4.46 14.53-1.3 19.58l-52.73 46.19zm-65.95-124.31c1.74-7.47 9.22-12.12 16.69-10.38 7.47 1.74 12.12 9.22 10.38 16.69l-30.13 129.04c-1.74 7.48-9.22 12.13-16.69 10.39-7.47-1.74-12.12-9.22-10.38-16.69l30.13-129.05zM22.03 97.05v251.91a9.56 9.56 0 0 0 9.59 9.59H481.8a9.56 9.56 0 0 0 9.59-9.59V97.05H22.03zm422.32-58.09c9.46 0 17.12 7.67 17.12 17.12 0 9.46-7.66 17.12-17.12 17.12-9.45 0-17.12-7.66-17.12-17.12 0-9.45 7.67-17.12 17.12-17.12zm-116.03 0c9.46 0 17.12 7.67 17.12 17.12 0 9.46-7.66 17.12-17.12 17.12-9.45 0-17.11-7.66-17.11-17.12 0-9.45 7.66-17.12 17.11-17.12zm58.02 0c9.45 0 17.12 7.67 17.12 17.12 0 9.46-7.67 17.12-17.12 17.12-9.45 0-17.12-7.66-17.12-17.12 0-9.45 7.67-17.12 17.12-17.12z"
+              />
+            </svg>
+            <span class="link-text">Projects</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.html#contact-form" class="nav-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              shape-rendering="geometricPrecision"
+              text-rendering="geometricPrecision"
+              image-rendering="optimizeQuality"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              viewBox="0 0 512 370.38"
+            >
+              <path
+                fill="currentColor"
+                d="m13.51 158.13 9.57 118.61c1.29 12.26 3.94 20.14 7.68 24.48 2.96 3.43 7 4.41 11.85 3.52.39-.07.77-.1 1.15-.1l46.28-.02.69.03c6.49.11 10.98-1.82 13.8-5.45 3.29-4.23 4.89-10.9 5.14-19.51l-.02-130.76c-.17-.58-.26-1.19-.26-1.82 0-.17 0-.34.02-.51-.72-4.17-2.54-6.98-5.24-8.73-3.73-2.41-9.33-3.34-16.18-3.26h-.08v.03l-58.74-.01c-6.05.29-10.69 1.74-13.29 4.86-2.78 3.34-3.78 9.11-2.43 18.05l.06.59zm374.41-5.04c0-2.1.13-4.09.39-5.97l-21.77-14.54c-3.13-2.09-6.56-4.49-10-6.9-5.87-4.11-11.81-8.27-17.91-11.91 2.14-3.7 4.02-7.58 5.61-11.6 6.77 3.97 13.25 8.52 19.64 13 3.19 2.23 6.36 4.45 9.79 6.74l19.35 12.88c.98-1.36 2.11-2.6 3.37-3.74 5.53-4.98 13.45-7.41 23.61-7.42v-.03l55.1.02c11.52-.04 20.91 2.06 27.4 7.06 7.22 5.57 10.62 14.04 9.17 26.19l-12.18 125.89c-.89 11.23-3.86 20.05-9.15 26.13-5.63 6.47-13.47 9.66-23.74 9.23l-49.55.01c-6.94.36-12.82-1.52-17.75-5.45-3.6-2.88-6.58-6.82-8.97-11.73h-17.14c2.31 6.75 2.19 13.16.35 18.84-1.9 5.86-5.59 10.84-10.3 14.58-4.61 3.66-10.24 6.16-16.12 7.12-5.75.94-11.76.43-17.35-1.89-6.51 6.79-13.35 11.08-20.49 13.04-7.17 1.97-14.43 1.57-21.78-1-6.97 7.72-14.68 12.57-23.18 14.41-8.65 1.88-17.84.58-27.59-4.01-3.03 2.38-6.21 4.26-9.53 5.63-4.7 1.94-9.64 2.84-14.79 2.69-12.35-.36-20.67-4.02-27.29-9.94-6.31-5.64-10.57-12.89-15.35-21.23l-27.31-47.64h-21.18c-1.23 6.16-3.38 11.37-6.59 15.5-5.4 6.97-13.33 10.66-24.29 10.44l-46.21.01c-9.15 1.49-17-.76-23.14-7.88-5.44-6.3-9.16-16.51-10.75-31.53l-.06-.55L.69 159.25c-1.9-12.77.2-21.8 5.33-27.97 5.18-6.22 12.98-9.03 22.6-9.48l.79-.05h58.5v.03c9.23-.1 17.17 1.42 23.2 5.32 4.85 3.14 8.33 7.56 10.12 13.57h39.81c10-6.75 19.37-12.05 29.73-15.28 1.54-.48 3.09-.91 4.67-1.29 2.11 2.67 4.37 5.21 6.77 7.61a84.39 84.39 0 0 0 3.77 3.56c-3.99.46-7.76 1.27-11.39 2.4-9.35 2.91-18.07 7.99-27.61 14.5-1.1.87-2.49 1.38-3.99 1.38h-40.46v125.12h23.65c2.5 0 4.67 1.42 5.74 3.5l29.03 50.63c4.25 7.42 8 13.83 12.73 18.06 4.42 3.95 10.2 6.4 19.08 6.67 3.34.09 6.53-.49 9.57-1.74 1.86-.77 3.69-1.81 5.48-3.11l-18.91-35.39a6.412 6.412 0 0 1 2.64-8.68 6.41 6.41 0 0 1 8.68 2.64l20.56 38.47c7.65 3.89 14.59 5.1 20.83 3.75 5.7-1.23 11.08-4.66 16.13-10.19l-29.62-46.5a6.41 6.41 0 0 1 1.97-8.85 6.4 6.4 0 0 1 8.85 1.96l31.22 49.02c5.48 2.22 10.74 2.72 15.75 1.35 4.78-1.32 9.57-4.38 14.35-9.34l-28.29-53.25c-1.66-3.14-.47-7.04 2.67-8.7a6.44 6.44 0 0 1 8.71 2.66l29.26 55.09c3.8 2.21 8.21 2.78 12.45 2.09 3.7-.61 7.26-2.19 10.17-4.51 2.82-2.23 5-5.13 6.08-8.44 1.17-3.63 1.05-7.9-.97-12.53a6.45 6.45 0 0 1-.52-2.97 6.456 6.456 0 0 1-3.66-4.26l-64.23-115.85c-7.13-11.94-13.57-12.25-19.79-8.54-4.41 2.63-9.05 6.87-13.7 11.11-2.81 2.58-5.64 5.16-7.98 7.09l-11.4 9.39c-7.94 6.32-16.88 9.7-25.36 10.41-5.64.46-11.13-.26-16.06-2.11-5.1-1.91-9.57-5.01-12.96-9.23-3.66-4.53-6.05-10.29-6.62-17.13-.16-1.97.58-3.79 1.86-5.08l30.97-36.85c3.41 2.61 7.03 4.98 10.81 7.06l-30.47 36.27c.6 3.06 1.81 5.63 3.46 7.68 1.91 2.38 4.48 4.15 7.43 5.25 3.12 1.18 6.72 1.62 10.53 1.31 6.08-.5 12.56-2.99 18.4-7.62l11.21-9.26c2.83-2.34 5.18-4.49 7.53-6.64 5.17-4.72 10.34-9.44 15.76-12.67 12.56-7.49 25.06-7.74 37.42 13l63.39 114.32h21.54l.02-134.92zM263.53 0c38.89 0 70.4 31.53 70.4 70.4 0 38.89-31.53 70.39-70.4 70.39-38.9 0-70.4-31.52-70.4-70.39 0-38.9 31.52-70.4 70.4-70.4zm-19.64 63.86c2.44 1.4 4.45 2.69 6.33 4.15a39.47 39.47 0 0 1 4.07 3.63c3.37-4.93 9.81-13.04 16.15-19.81 5.29-5.64 10.59-10.41 14.17-11.8l.31-.12h18.79l-2.55 2.83c-9.82 10.91-17.57 19.96-24.53 29.52-6.96 9.57-13.18 19.71-19.98 32.82l-1.58 3.04-1.45-3.1c-3.51-7.51-6.83-13.86-11-19.49-4.14-5.6-9.15-10.54-16.08-15.29l-3.2-2.19 19.98-4.52.57.33zM65.73 249.69c6.11 0 11.07 4.95 11.07 11.07 0 6.11-4.96 11.07-11.07 11.07-6.12 0-11.08-4.96-11.08-11.07 0-6.12 4.96-11.07 11.08-11.07zm378.78 0c6.12 0 11.08 4.95 11.08 11.07 0 6.11-4.96 11.07-11.08 11.07-6.11 0-11.07-4.96-11.07-11.07 0-6.12 4.96-11.07 11.07-11.07z"
+              />
+            </svg>
+            <span class="link-text">Contact Me</span>
+          </a>
+        </li>
+
+        <!-- <span class="link-text" style="margin-left:20px">Themify</span> -->
+      </ul>
+    </nav>
+    <main>
+      <section class="s1">
+        <div class="main-container">
+          <div class="greeting-wrapper">
+            <h1>Hi, I'm SHARATH KUMAR</h1>
+          </div>
+
+          <div class="intro-wrapper">
+            <div class="nav-wrapper">
+              <div class="dots-wrapper">
+                <div id="dot-1" class="browser-dot"></div>
+                <div id="dot-2" class="browser-dot"></div>
+                <div id="dot-3" class="browser-dot"></div>
+              </div>
+
+              <ul id="navigation">
+                <li><a href="index.html#contact-form">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="left-column">
+              <img id="profile_pic" src="images/Handsome.jpg" />
+              <h5 style="text-align: center; line-height: 0">
+                Personalize Theme
+              </h5>
+
+              <div id="theme-options-wrapper">
+                <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                <div
+                  data-mode="purple"
+                  id="purple-mode"
+                  class="theme-dot"
+                ></div>
+              </div>
+
+              <p id="settings-note">
+                *Theme settings will be saved for<br />your next visit
+              </p>
+            </div>
+
+            <div class="right-column">
+              <div id="preview-shadow">
+                <div id="preview">
+                  <div id="corner-tl" class="corner"></div>
+                  <div id="corner-tr" class="corner"></div>
+                  <h3>What I Do</h3>
+                  <p>
+                    I am a FULL STACK WEB DEVELOPER and I enjoy spending my
+                    time with it.
+                  </p>
+                  <div id="corner-br" class="corner"></div>
+                  <div id="corner-bl" class="corner"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="s1">
-      <div class="main-container">
-        <h3 style="text-align: center">Some of my past projects</h3>
+      <section class="s2">
+        <div class="main-container">
+          <div class="about-wrapper">
+            <div class="about-me" id="about-me">
+              <h4 style="margin-top: 0px">More about me</h4>
 
-        <div class="post-wrapper">
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/acosta.png" />
-              <div class="post-preview">
-                <h6 class="post-title">Insurance Website</h6>
-                <p class="post-intro">
-                  Developed Web-based application interface for Insurance policy
-                  processing systems
-                </p>
-                <!-- Need to update -->
-                <!-- <a href="post.html">Read More</a> -->
-                <a target="_blank" href="https://www.acostainsurancegroup.com/">Learn More</a>
+              <p>
+                I build new projects to keep up with latest emerging concepts
+                and I am very passionate to know what's the idea and purpose
+                behind the software creation.
+              </p>
+
+              <p>
+                Even though I am busy with my work, I still take time to attend
+                courses, read articles, blogs, listen to podcasts related to
+                web-development's history and advancements.
+              </p>
+
+              <hr />
+
+              <h4 id="expertise">Top Expertise</h4>
+
+              <p>
+                Fullstack developer with primary focus on Responsive Front End
+                User Interface + Back End using Javascript and Java. Check out
+                my GitHub profile under find me section to learn about my
+                expertise in detail.
+                <!-- Back End:<a target="_blank" href="files/resume.docx">Download Resume</a></p> -->
+              </p>
+
+              <div id="skills">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                  <li>Angular</li>
+                  <li>React</li>
+                  <li>SQL</li>
+                </ul>
+
+                <ul>
+                  <li>CSS/HTML</li>
+                  <li>Bootstrap</li>
+                  <li>Google Maps API</li>
+                  <li>JS Charts</li>
+                  <li>AWS Resources</li>
+                </ul>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/sugar_river.png" />
-              <div class="post-preview">
-                <h6 class="post-title">Banking Website</h6>
-                <p class="post-intro">
-                  Front and back office application used by customers to make
-                  requests and also for bankers to view and process information
-                </p>
-                <!-- Need to update -->
-                <!-- <a href="post.html">Read More</a> -->
-                <a target="_blank" href="https://www.sugarriverbank.com/">Learn More</a>
-              </div>
+            <div class="social-links" id="find-me">
+              <img id="social_img" src="images/github.png" />
+              <h3 style="margin-bottom: 5px">Find me on Github</h3>
+
+              <a
+                target="_blank"
+                class="medialinks"
+                href="https://github.com/kumar-sudo-a"
+                >Github: @<u>kumar-sudo-a</u></a
+              >
             </div>
           </div>
+        </div>
+      </section>
 
-          <div>
-            <div class="post">
-              <img class="thumbnail" src="images/urban_outfitters.png" />
-              <div class="post-preview">
-                <h6 class="post-title">E-Commerce Website</h6>
-                <p class="post-intro">
-                  Online E-Commerce store with paypal payments integration and
-                  guest user shopping.
-                </p>
-                <!-- Need to update -->
-                <!-- <a href="post.html">Read More</a> -->
-                <a target="_blank" href="https://www.urbanoutfitters.com/">Learn More</a>
+      <section class="s1">
+        <div class="main-container" id="projects">
+          <h3 style="text-align: center">Some of my past projects</h3>
+
+          <div class="post-wrapper">
+            <div>
+              <div class="post">
+                <img class="thumbnail" src="images/acosta.png" />
+                <div class="post-preview">
+                  <h6 class="post-title">Insurance Website</h6>
+                  <p class="post-intro">
+                    Developed Web-based application interface for Insurance
+                    policy processing systems
+                  </p>
+                  <!-- Need to update -->
+                  <!-- <a href="post.html">Read More</a> -->
+                  <a
+                    target="_blank"
+                    href="https://www.acostainsurancegroup.com/"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img class="thumbnail" src="images/sugar_river.png" />
+                <div class="post-preview">
+                  <h6 class="post-title">Banking Website</h6>
+                  <p class="post-intro">
+                    Front and back office application used by customers to make
+                    requests and also for bankers to view and process
+                    information
+                  </p>
+                  <!-- Need to update -->
+                  <!-- <a href="post.html">Read More</a> -->
+                  <a target="_blank" href="https://www.sugarriverbank.com/"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img class="thumbnail" src="images/urban_outfitters.png" />
+                <div class="post-preview">
+                  <h6 class="post-title">E-Commerce Website</h6>
+                  <p class="post-intro">
+                    Online E-Commerce store with paypal payments integration and
+                    guest user shopping.
+                  </p>
+                  <!-- Need to update -->
+                  <!-- <a href="post.html">Read More</a> -->
+                  <a target="_blank" href="https://www.urbanoutfitters.com/"
+                    >Learn More</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="s2">
-      <div class="main-container">
-        <h3 style="text-align: center">Get in Touch</h3>
+      <section class="s2">
+        <div class="main-container">
+          <h3 style="text-align: center">Get in Touch</h3>
 
-        <form
-          id="contact-form"
-          action="https://formspree.io/f/mdojlvwd"
-          method="POST"
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/mdojlvwd"
+            method="POST"
+          >
+            <label>Name</label>
+            <input
+              class="input-field"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+
+            <label>Subject</label>
+            <input
+              class="input-field"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+
+            <label>Email</label>
+            <input
+              class="input-field"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+
+            <label>Phone</label>
+            <input
+              class="input-field"
+              type="text"
+              name="Phone"
+              placeholder="Phone number"
+              required
+            />
+
+            <label>Message</label>
+            <textarea
+              class="input-field"
+              rows="5"
+              name="message"
+              placeholder="How can I help you"
+            ></textarea>
+
+            <button id="submit-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="back-to-top" data-hover-hint="backToTop">
+        <a href="#"
+          ><span class="arrow">&uarr;</span
+          ><span class="preserve-whitespace">Back to Top</span></a
         >
-          <label>Name</label>
-          <input
-            class="input-field"
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            required
-          />
-
-          <label>Subject</label>
-          <input
-            class="input-field"
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            required
-          />
-
-          <label>Email</label>
-          <input
-            class="input-field"
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Email"
-            required
-          />
-
-          <label>Phone</label>
-          <input
-            class="input-field"
-            type="text"
-            name="Phone"
-            placeholder="Phone number"
-            required
-          />
-
-          <label>Message</label>
-          <textarea
-            class="input-field"
-            rows="5"
-            name="message"
-            placeholder="How can I help you"
-          ></textarea>
-
-          <button id="submit-btn" type="submit">Send</button>
-        </form>
-      </div>
-    </section>
-
-    <section class="back-to-top" data-hover-hint="backToTop">
-      <a href="#"
-        ><span class="arrow">&uarr;</span
-        ><span class="preserve-whitespace">Back to Top</span></a
+      </section>
+      <a
+        class="back-to-top-fixed js-back-to-top back-to-top-fixed-with-panel"
+        data-hover-hint="backToTop"
+        data-hover-hint-placement="top-start"
+        href="#"
       >
-    </section>
-    <a
-      class="back-to-top-fixed js-back-to-top back-to-top-fixed-with-panel"
-      data-hover-hint="backToTop"
-      data-hover-hint-placement="top-start"
-      href="#"
-    >
-      <svg
-        version="1.1"
-        id="Layer_1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        viewBox="0 0 26 26"
-        style="enable-background: new 0 0 26 26"
-        xml:space="preserve"
-        class="icon icon-back-to-top"
-        id="backToBtn"
-      >
-        <g>
-          <path
-            d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 26 26"
+          style="enable-background: new 0 0 26 26"
+          xml:space="preserve"
+          class="icon icon-back-to-top"
+          id="backToBtn"
+        >
+          <g>
+            <path
+              d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
             c-0.1,0.1-0.2,0.2-0.4,0.3c-0.2,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.3-0.2-0.4-0.3L14.2,5l0,19.1
             c0,0.2-0.1,0.3-0.1,0.5c0,0.1-0.1,0.3-0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.3,0.1-0.5,0.1c-0.1,0-0.3,0-0.4-0.1
             c-0.1-0.1-0.3-0.1-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.1-0.1-0.3-0.1-0.5l0-19.1l-5.7,5.7C6,10.8,5.8,10.9,5.7,11
             c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.1-0.2-0.2-0.4C4.1,10.2,4,10.1,4.1,9.9
             c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.3-0.4l7.7-7.8c0.1,0,0.2-0.1,0.2-0.1c0,0,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.2-0.1
             c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1C13.7,1.2,13.8,1.2,13.8,1.3z"
-          />
-        </g>
-      </svg>
-    </a>
+            />
+          </g>
+        </svg>
+      </a>
 
-    <script type="text/javascript" src="js/script.js"></script>
-    
-    <!-- Below two lines - Smooth scrolling -->
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script>
-      var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000}, {easing: 'linear'});
-    </script>
-    <!-- {speedAsDuration: true} -->
+      <script type="text/javascript" src="js/script.js"></script>
 
+      <!-- Below two lines - Smooth scrolling -->
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+      <script>
+        var scroll = new SmoothScroll(
+          'a[href*="#"]',
+          { speed: 1000 },
+          { easing: "linear" }
+        );
+      </script>
+      <!-- {speedAsDuration: true} -->
+    </main>
   </body>
 </html>
